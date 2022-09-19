@@ -1,0 +1,20 @@
+.card {
+  width: 400px;
+  border: 2px solid #7F7979;
+  border-radius: 8px;
+
+  padding: 10px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.card > h3 {
+  margin: 0px;
+}
+
+.card > .select {
+  display: flex;
+  justify-content: space-between;
+}
